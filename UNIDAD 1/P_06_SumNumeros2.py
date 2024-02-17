@@ -1,4 +1,5 @@
 import sys
+import math
 from PyQt5 import uic, QtWidgets
 qtCreatorFile = "P_06_SumNumeros_V2.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
@@ -11,7 +12,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         # Área de los Signals
         self.btn_sumar.clicked.connect(self.sumar)
-        self.txt_resultado.setEnabled (False)
+        self.txt_resultado.setEnabled(False)
     # Área de los Slots
     def sumar(self):
         numeros = self.txt_numeros.text()
@@ -22,7 +23,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         suma = sum(lista_en_numeros)
 
-        self.txt_resultado.setText(str(sumar))
+        self.txt_resultado.setText(str(suma))
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

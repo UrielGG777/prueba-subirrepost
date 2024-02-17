@@ -3,7 +3,7 @@ import sys
 from PyQt5 import uic, QtWidgets
 from numpy import double
 
-qtCreatorFile = "P_06_EcuacionPrimerGrado.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "E_04_EcuacionPrimerGrado.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 

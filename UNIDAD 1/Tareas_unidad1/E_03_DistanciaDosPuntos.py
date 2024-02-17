@@ -3,7 +3,7 @@ import sys
 from PyQt5 import uic, QtWidgets
 from numpy import double
 
-qtCreatorFile = "P_05_DistanciaDosPuntos.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "E_03_DistanciaDosPuntos.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 

@@ -5,7 +5,7 @@ import numpy
 from PyQt5 import uic, QtWidgets
 from numpy import double
 
-qtCreatorFile = "P_10_Calificacion.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "E_08_Calificacion.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 

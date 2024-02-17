@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="meme">
+    <file>fians.jpg</file>
+    <file>Imagen/como.jpg</file>
+  </qresource>
+  <qresource prefix="variados">
+    <file>logo_equipo.jpg</file>
+    <file>badillo .png</file>
+    <file>GonzalezUriel.png</file>
+    <file>JuarezBeltran.png</file>
+    <file>sofi.png</file>
+    <file>uat-logo.jpg</file>
+    <file>logo_equipo.jpg</file>
+  </qresource>
+</RCC>

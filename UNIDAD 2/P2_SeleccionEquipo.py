@@ -33,23 +33,23 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             print("Sofia True")
             self.sofia = "SOFIA\n"
         else:
-            print("sofia False")
+            print("Sofia False")
             self.sofia = ""
         self.text_equipo.setPlainText(self.badillo + self.sofia + self.eduardo + self.uriel)
     def sel_eduardo(self):
         if self.cb_eduardo.isChecked():
-            print("eduardo True")
+            print("Eduardo True")
             self.eduardo = "EDUARDO\n"
         else:
-            print("eduardo False")
+            print("Eduardo False")
             self.eduardo = ""
         self.text_equipo.setPlainText(self.badillo + self.sofia + self.eduardo + self.uriel)
     def sel_uriel(self):
         if self.cb_uriel.isChecked():
-            print("uriel True")
+            print("Uriel True")
             self.uriel = "URIEL\n"
         else:
-            print("uriel False")
+            print("Uriel False")
             self.uriel = ""
         self.text_equipo.setPlainText(self.badillo + self.sofia + self.eduardo + self.uriel)
 

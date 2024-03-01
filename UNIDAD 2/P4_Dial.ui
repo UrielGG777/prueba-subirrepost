@@ -81,8 +81,8 @@
      <rect>
       <x>290</x>
       <y>280</y>
-      <width>221</width>
-      <height>261</height>
+      <width>391</width>
+      <height>381</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -90,6 +90,9 @@
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_12">
@@ -105,7 +108,13 @@
      <string notr="true">border-image: url(:/variados/uat-logo.jpg);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/uat-logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_13">
@@ -121,7 +130,13 @@
      <string notr="true">border-image: url(:/meme/fians.jpg);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/fians.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -138,6 +153,12 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/logo_equipo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

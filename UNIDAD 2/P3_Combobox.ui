@@ -45,7 +45,7 @@
      <rect>
       <x>920</x>
       <y>580</y>
-      <width>261</width>
+      <width>211</width>
       <height>151</height>
      </rect>
     </property>
@@ -53,7 +53,10 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Recursos.qrc">:/meme/Imagen/como.jpg</pixmap>
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/logo_equipo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -73,16 +76,19 @@
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>170</y>
-      <width>371</width>
-      <height>421</height>
+      <y>230</y>
+      <width>271</width>
+      <height>291</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">border-image: url(:/variados/JuarezBeltran.png);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -106,6 +112,50 @@
       <width>321</width>
       <height>31</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>40</y>
+      <width>271</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/uat-logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>271</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/fians.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

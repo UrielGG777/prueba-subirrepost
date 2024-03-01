@@ -29,6 +29,12 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/fians.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -71,12 +77,18 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/uat-logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>580</y>
+      <x>860</x>
+      <y>570</y>
       <width>291</width>
       <height>181</height>
      </rect>
@@ -86,6 +98,12 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/logo_equipo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -115,6 +133,9 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">

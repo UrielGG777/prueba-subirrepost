@@ -82,10 +82,10 @@
    <widget class="QLabel" name="img_persona">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>280</y>
-      <width>231</width>
-      <height>251</height>
+      <x>300</x>
+      <y>160</y>
+      <width>481</width>
+      <height>451</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -93,6 +93,9 @@
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -110,6 +113,12 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/logo_equipo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -126,6 +135,12 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/uat-logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -141,6 +156,12 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Recursos.qrc">:/meme/Imagen/fians.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

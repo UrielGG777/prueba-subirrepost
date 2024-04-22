@@ -12,10 +12,10 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         # Área de los Signals
         self.datos_persona = {
-            1:["Badillo", "Jugar", 20, "o+", ":/variados/badillo.png"],
-            2: ["Eduardo", "?", 20, "o+", ":/variados/JuarezBeltran.png"],
-            3: ["Sofia", "?", 20, "o+", ":/variados/sofi.png"],
-            4: ["Uriel", "?", 20, "o+", ":/variados/GonzalezUriel.png"],
+            1:["Badillo", "Jugar", 20, "o+", ":/meme/Imagen/badillo.png"],
+            2: ["Eduardo", "?", 20, "o+", ":/meme/Imagen/JuarezBeltran.png"],
+            3: ["Sofia", "?", 20, "o+", ":/meme/Imagen/sofi.png"],
+            4: ["Uriel", "?", 20, "o+", ":/meme/Imagen/GonzalezUriel.png"],
         }
 
         self.btn_adelante.clicked.connect(self.siguiente)

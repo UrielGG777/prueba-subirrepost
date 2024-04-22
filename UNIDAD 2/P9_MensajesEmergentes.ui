@@ -49,7 +49,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>:/Logos/logo fians.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/meme/Imagen/fians.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -71,7 +71,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/variados/fians.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/meme/Imagen/uat-logo.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -197,7 +197,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/variados/logo_equipo.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/meme/Imagen/logo_equipo.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

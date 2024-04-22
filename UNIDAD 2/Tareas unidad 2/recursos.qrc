@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>Imagenes/fians.png</file>
+    <file>Imagenes/uat-solo-chico.png</file>
+    <file>Imagenes/Beva.png</file>
+  </qresource>
+  <qresource prefix="Variadas">
+    <file>Imagenes/LogoEquipo.jpeg</file>
+    <file>Imagenes/Papel.png</file>
+    <file>Imagenes/Piedra.png</file>
+    <file>Imagenes/Tijeras.png</file>
+    <file>Imagenes/WhatsApp Image 2024-02-15 at 6.57.13 PM.jpeg</file>
+    <file>Imagenes/Eduardo.jpg</file>
+    <file>Imagenes/Sofia.jpg</file>
+    <file>Imagenes/Uriel.jpg</file>
+    <file>Imagenes/VIctor.jpg</file>
+  </qresource>
+</RCC>

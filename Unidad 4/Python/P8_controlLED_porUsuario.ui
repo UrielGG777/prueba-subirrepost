@@ -202,7 +202,7 @@
      <string>CONTROL LED:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_control_led">
+   <widget class="QPushButton" name="btnapagar_prender">
     <property name="geometry">
      <rect>
       <x>550</x>

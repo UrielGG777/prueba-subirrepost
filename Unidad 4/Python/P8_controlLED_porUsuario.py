@@ -14,7 +14,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         self.btnapagar_prender.clicked.connect(self.apagar_prender)
         self.estado_led = 0
-        self.datos.setReadOnly(True)
+
 
     # Area de Slots
     def apagar_prender(self):

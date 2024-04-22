@@ -17,9 +17,9 @@
    <widget class="QLabel" name="txt_estado">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>150</x>
       <y>150</y>
-      <width>181</width>
+      <width>241</width>
       <height>31</height>
      </rect>
     </property>
@@ -58,7 +58,7 @@
      <rect>
       <x>20</x>
       <y>150</y>
-      <width>101</width>
+      <width>131</width>
       <height>31</height>
      </rect>
     </property>
@@ -89,7 +89,7 @@
      </font>
     </property>
     <property name="text">
-     <string>/dev/cu.usbmodem11301</string>
+     <string>COM4</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -179,7 +179,7 @@
      <x>0</x>
      <y>0</y>
      <width>753</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

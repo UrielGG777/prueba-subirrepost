@@ -21,10 +21,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.dialog.show()
 
     #Area de Slots
-
-
-
-
 qtCreatorFile3 = "Second_EnvioInfo.ui"  # Nombre del archivo aquí.
 Ui_dialog, QtBaseClass3 = uic.loadUiType(qtCreatorFile3)
 

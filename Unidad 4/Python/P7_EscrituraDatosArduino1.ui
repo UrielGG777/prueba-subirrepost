@@ -172,13 +172,26 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="datos">
+   <widget class="QPushButton" name="btn_enviar">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>210</y>
-      <width>261</width>
-      <height>211</height>
+      <x>200</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enviar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_numero">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>230</y>
+      <width>171</width>
+      <height>21</height>
      </rect>
     </property>
    </widget>
@@ -189,7 +202,7 @@
      <x>0</x>
      <y>0</y>
      <width>753</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

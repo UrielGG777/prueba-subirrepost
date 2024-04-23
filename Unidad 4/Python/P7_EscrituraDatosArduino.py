@@ -12,6 +12,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         # Área de los Signals
         self.btn_accion.clicked.connect(self.accion)
+        self.btn_enviar.clicked.connect(self.enviar_dato)
 
         self.arduino = None
 
@@ -31,15 +32,20 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             self.arduino.open()
             self.segundoPlano.start(100)
             self.btn_accion.setText("DESCONECTAR")
+
+    def enviar_dato(self):
+        if self.arduino is not None and self.arduino.isOpen():
+            dato = self.txt_numero.text()
+            self.arduino.write(dato.encode())
+
     def lecturaSerial(self):
-        if not self.arduino is None and self.arduino.isOpen():
+        if self.arduino is not None and self.arduino.isOpen():
             if self.arduino.inWaiting():
-                cadena = self.arduino.readline()
-                cadena = cadena.decode()
-                cadena = cadena.strip()
-            if cadena != "":
-                self.datos.addItem(cadena)
-                self.datos.setCurrentRow(self.datos.count() - 1)
+                cadena = self.arduino.readline().decode().strip()
+                if cadena:
+                    self.datos.addItem(cadena)
+                    self.datos.setCurrentRow(self.datos.count() - 1)
+
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

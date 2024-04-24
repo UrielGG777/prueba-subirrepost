@@ -81,7 +81,8 @@ void loop() {
       int v = Serial.readString().toInt();
       if (v == 0){
         estado = 0;
-      } else {
+      } else if(v==1){
+        Serial.println("Fin del programa.");
         estado++;
       }
     }

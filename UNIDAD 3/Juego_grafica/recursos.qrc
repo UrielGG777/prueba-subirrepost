@@ -1,0 +1,53 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>Imagenes/equipo.jpeg</file>
+    <file>Imagenes/logo fians.jpg</file>
+    <file>Imagenes/logo uat.jpg</file>
+  </qresource>
+  <qresource prefix="IMCsobrepeso">
+    <file>Imagenes/IMCsobrepeso4.jpg</file>
+    <file>Imagenes/IMCsobrepeso1.jpg</file>
+    <file>Imagenes/IMCsobrepeso2.jpg</file>
+    <file>Imagenes/IMCsobrepeso3.jpg</file>
+  </qresource>
+  <qresource prefix="IMCobsedidad">
+    <file>Imagenes/IMCobesidad1.jpg</file>
+    <file>Imagenes/IMCobesidad2.jpg</file>
+    <file>Imagenes/IMCobesidad3.jpg</file>
+    <file>Imagenes/IMCobesidad4.jpg</file>
+  </qresource>
+  <qresource prefix="IMCsaludable">
+    <file>Imagenes/IMCsaludable1.jpg</file>
+    <file>Imagenes/IMCsaludable2.jpg</file>
+    <file>Imagenes/IMCsaludable3.jpg</file>
+    <file>Imagenes/IMCsaludable4.jpg</file>
+  </qresource>
+  <qresource prefix="mascotas">
+    <file>Imagenes/Macotas/conejo.jpg</file>
+    <file>Imagenes/Macotas/cuyo.jpg</file>
+    <file>Imagenes/Macotas/gato.jpg</file>
+    <file>Imagenes/Macotas/hamster.jpg</file>
+    <file>Imagenes/Macotas/perro.jpg</file>
+  </qresource>
+  <qresource prefix="IMCBajo">
+    <file>Imagenes/IMCbajo1.jpg</file>
+    <file>Imagenes/IMCbajo2.jpg</file>
+    <file>Imagenes/IMCbajo3.jpg</file>
+    <file>Imagenes/IMCbajo4.jpg</file>
+  </qresource>
+  <qresource prefix="Variadas">
+    <file>Imagenes/color_morado.jpg</file>
+    <file>Imagenes/color_rojo.jpg</file>
+    <file>Imagenes/color_rosa.jpg</file>
+    <file>Imagenes/color_verde.jpg</file>
+    <file>Imagenes/fondo2.jpg</file>
+    <file>Imagenes/fondo.jpg</file>
+    <file>Imagenes/boton.jpg</file>
+    <file>Imagenes/kenia os.png</file>
+    <file>Imagenes/badillo .png</file>
+    <file>Imagenes/images.jpg</file>
+    <file>Imagenes/GonzalezUriel.png</file>
+    <file>Imagenes/JuarezBeltran.png</file>
+    <file>Imagenes/sofi.png</file>
+  </qresource>
+</RCC>

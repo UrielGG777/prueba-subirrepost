@@ -2,7 +2,7 @@ import sys
 
 from PyQt5 import uic, QtWidgets, QtCore
 
-from UI_to_Python import P2_Ejemplo as interfaz
+import P2_Ejemplo as interfaz
 
 class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
     def __init__(self):
@@ -19,7 +19,6 @@ class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
         self.btn_nuevo.setText("NUEVO SALUDO")
 
         self.btn_nuevo.clicked.connect(self.saludar)
-
 
     def saludar(self):
         try:

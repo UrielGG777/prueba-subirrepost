@@ -19,8 +19,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     #Area de Slots
 
 
-
-
 qtCreatorFile3 = "Second_RecepcionInfo.ui"  # Nombre del archivo aquí.
 Ui_dialog, QtBaseClass3 = uic.loadUiType(qtCreatorFile3)
 

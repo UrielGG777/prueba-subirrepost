@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>LogoFIT.jpg</file>
+    <file>LogoUAT.png</file>
+    <file>RhineLab.jpg</file>
+  </qresource>
+  <qresource prefix="Personas">
+    <file>Moy.png</file>
+    <file>Sofia.png</file>
+    <file>Uriel.png</file>
+    <file>YoMero.png</file>
+  </qresource>
+  <qresource prefix="Otro">
+    <file>orange-polygonal-background-fade-3.png</file>
+    <file>Hanged0.png</file>
+    <file>Hanged1.png</file>
+    <file>Hanged2.png</file>
+    <file>Hanged3.png</file>
+    <file>Hanged4.png</file>
+    <file>Hanged6.png</file>
+    <file>Hanged5.png</file>
+  </qresource>
+</RCC>
